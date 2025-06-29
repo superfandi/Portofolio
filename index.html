@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font_awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- favicon -->
+    <link rel="icon" href="assets/img/ms.png" type="image/x-icon" />
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Portofolio | Arfandi</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <img src="assets/img/ms.png" alt="" width="40" height="40" />
+        <a class="navbar-brand text-danger fw-bold fs-5" href="#">Fand_IT</a>
+        <div class="dropdown">
+          <button class="btn btn-danger px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#services">Services</a></li>
+            <li><a class="dropdown-item" href="#portofolio">Portofolio</a></li>
+            <li><a class="dropdown-item" href="#education">Education</a></li>
+            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- home section start -->
+    <section class="home py-5 bg-image" id="home">
+      <div class="container">
+        <div class="row text-dark min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-end">
+              <img src="assets/img/portofolio.png" class="img-fluid w-50 rounded-circle mw-100 floating" alt="portofolio" />
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+            <div class="home text-light">
+              <p class="text-muted mb-1">Hello, My name is</p>
+              <h1>Arfandi</h1>
+              <h3>And I'm a <span id="typed" class="text-danger fw-bold"></span></h3>
+              <p>
+                Seorang profesional yang ahli dalam merancang, membangun, dan mengelola website yang fungsional, menarik, dan responsif. Menguasai berbagai teknologi frontend dan backend untuk menciptakan solusi digital sesuai kebutuhan
+                pengguna dan bisnis.
+              </p>
+              <a href="https://wa.me/6281545966360" target="_blank" class="btn btn-danger mt-3 px-3 rounded-pill fw-bold">Whatsapp<i class="fa-brands fa-whatsapp ms-2 fs-5"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    <section class="about bg-white py-5" id="about">
+      <div class="container py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h4 class="fs-4 mb-3">
+                Nama saya Arfandi, seorang Web Developer yang memiliki pengalaman dalam membangun berbagai jenis website modern, responsif, dan user-friendly. Saya terbiasa menggunakan teknologi seperti HTML, CSS, JavaScript, Bootstrap,
+                React.js, hingga backend dengan Node.js dan Express.js.
+              </h4>
+              <p class="text-muted">Dengan semangat dan kerja keras, berikut hasil kerja saya yang patut dibanggakan:</p>
+            </div>
+            <div class="row text-center my-3">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">10</h4>
+                  <p class="text-muted">Project completed</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">9</h4>
+                  <p class="text-muted">Happy Client</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">9</h4>
+                  <p class="text-muted">Positive Feedback</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 d-flex flex-column flex-md-row align-items-center text-center">
+                <a href="assets/icons/cv.pdf" class="btn btn-danger mx-5 px-3 my-3 rounded-pill fw-bold" id="download-cv" download> Download CV <i class="fas fa-user"></i> </a>
+                <div class="social-links">
+                  <a href="#" class="text-dark me-2 rounded-circle"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                  <a href="#" class="text-dark me-2 rounded-circle"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                  <a href="#" class="text-dark me-2 rounded-circle"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                  <a href="#" class="text-dark me-2 rounded-circle"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skill-item">
+              <h3 class="">Html</h3>
+              <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h3>Css</h3>
+              <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h3>Javascript</h3>
+              <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h3>Bootstrap</h3>
+              <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h3>React js</h3>
+              <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h3>Node js</h3>
+              <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h3>Express js</h3>
+              <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- services section start -->
+    <section class="services bg-dark py-5" id="services">
+      <div class="container">
+        <div class="row justify-content-center text-light">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Services</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <i class="fa-solid fa-laptop-code fa-5x text-danger"></i>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center">Web Development</h3>
+                <p class="card-text text-muted">Pembuatan website profesional yang responsive, cepat, dan sesuai kebutuhan bisnis atau personal.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <i class="fa-solid fa-palette fa-5x text-danger"></i>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center">Ui/Ux Design</h3>
+                <p class="card-text text-muted">Desain tampilan website yang menarik dan mudah digunakan untuk memberikan pengalaman terbaik bagi pengguna.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <i class="fa-solid fa-cart-shopping fa-5x text-danger"></i>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center">E-Commerce Development</h3>
+                <p class="card-text text-muted">Pembuatan toko online lengkap dengan fitur keranjang, checkout, pembayaran, dan pengelolaan produk.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <i class="fa-solid fa-screwdriver-wrench fa-5x text-danger"></i>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center">Website Maintenance</h3>
+                <p class="card-text text-muted">Layanan pemeliharaan website seperti update, perbaikan bug, backup, dan peningkatan keamanan.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <i class="fa-solid fa-rocket fa-5x text-danger"></i>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center">Landing Page Design</h3>
+                <p class="card-text text-muted">Desain halaman promosi yang menarik, fokus pada konversi tinggi dan performa maksimal.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <i class="fa-solid fa-chart-line fa-5x text-danger"></i>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center">SEO Optimization</h3>
+                <p class="card-text text-muted">Optimasi website agar mudah ditemukan di mesin pencari dan meningkatkan trafik secara organik.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section end -->
+
+    <!-- portofolio section start -->
+    <section class="portofolio bg-light py-5" id="portofolio">
+      <div class="container">
+        <div class="row justify-content-center text-light">
+          <div class="col-lg-8">
+            <div class="section-title text-center text-dark">
+              <h2 class="fw-bold mb-5">Portofolio</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <img src="assets/img/lp01.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <img src="assets/img/lp02.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <img src="assets/img/lp03.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <img src="assets/img/lp04.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <img src="assets/img/lp05.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card mx-auto h-100 border-danger" style="width: 18rem; border-width: 3px; border-radius: 10px">
+              <div class="text-center my-3">
+                <img src="assets/img/lp06.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portofolio section end -->
+
+    <!-- education section start -->
+    <section class="education bg-dark text-light py-5" id="education">
+      <div class="container py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Education</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center mb-5">
+          <div class="col-md-4 text-center mb-3 mb-md-0">
+            <img src="assets/img/ubsi.png" alt="University" class="img-fluid rounded shadow" style="width: 200px" />
+          </div>
+          <div class="col-md-8">
+            <h4 class="text-danger fw-bold">Universitas Bina Sarana Dan Informatika</h4>
+            <p class="mb-1"><strong>Program Studi:</strong> Teknologi Informasi</p>
+            <p class="mb-1"><strong>Tahun:</strong> 2023 - sekarang (semester 5)</p>
+            <p class="text-muted">Mempelajari pengembangan web, struktur data, algoritma, basis data, dan pemrograman fullstack modern.</p>
+          </div>
+        </div>
+
+        <div class="row align-items-center flex-md-row-reverse">
+          <div class="col-md-4 text-center mb-3 mb-md-0">
+            <img src="assets/img/smada1.png" alt="SMK" class="img-fluid rounded shadow" />
+          </div>
+          <div class="col-md-8">
+            <h4 class="text-danger fw-bold">SMA Negeri 2 Jeneponto</h4>
+            <p class="mb-1"><strong>Jurusan:</strong> Ipa</p>
+            <p class="mb-1"><strong>Tahun:</strong> 2014 - 2017</p>
+            <p class="text-muted">Belajar dasar-dasar michrosoft office, belajar bahasa inggris, matematika, dan fisika.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- education section end -->
+
+    <!-- contact section start -->
+    <section class="contact bg-light text-dark py-5" id="contact">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Contact Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card" style="border: 20px solid #dc3545">
+              <div class="card-body bg-dark text-start">
+                <!-- ALERT SUKSES -->
+                <div id="alertSuccess" class="alert alert-success d-none" role="alert">Pesan berhasil dikirim!</div>
+                <!-- FORM YANG SUDAH BENAR -->
+                <form id="contactForm" action="https://formspree.io/f/xeokvnvl" method="POST">
+                  <div class="mb-3">
+                    <label for="name" class="form-label text-light">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your name" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label text-light">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label text-light">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="3" required placeholder="Enter your message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-danger fw-bold">Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer section -->
+    <footer class="bg-dark text-light text-center py-3">
+      <div class="container">
+        <p>&copy; 2025 By Arfandi. All rights reserved.</p>
+        <a href="#home" class="btn btn-light rounded-circle">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
